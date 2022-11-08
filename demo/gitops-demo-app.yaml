@@ -46,7 +46,7 @@ metadata:
   name: gitops-demo-app
   namespace: flux-system
 spec:
-  image: pythops/gitops
+  image: igbedo/gitops
   interval: 1m
 ---
 apiVersion: image.toolkit.fluxcd.io/v1beta1
