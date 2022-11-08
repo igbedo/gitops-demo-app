@@ -4,7 +4,7 @@ metadata:
   name: gitops-demo-app
   namespace: flux-system
 spec:
-  interval: 30s
+  interval: 25s
   url: ssh://git@github.com/igbedo/gitops-demo-app
   ref:
     branch: master
